@@ -6,12 +6,15 @@
       <mapping pattern=".functions" type="PLAIN_TEXT" />
       <mapping pattern=".psqlrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="foo" type="PLAIN_TEXT" />
       <mapping pattern="dlh" type="PLAIN_TEXT" />
       <mapping pattern="svncountcs" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="rw" type="PLAIN_TEXT" />
       <mapping ext="rst" type="PLAIN_TEXT" />
       <mapping ext="lang" type="PLAIN_TEXT" />
+      <removed_mapping ext="rst" type="ReST" />
     </extensionMap>
   </component>
 </application>

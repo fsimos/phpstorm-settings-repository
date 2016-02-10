@@ -7,36 +7,66 @@
             <id />
           </State>
           <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
             <id>Code StylePHP</id>
           </State>
           <State>
-            <id>Code style issuesJavaScript</id>
+            <id>Code style issuesCSS</id>
           </State>
           <State>
-            <id>GeneralJavaScript</id>
+            <id>Control FlowPHP</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
           </State>
           <State>
             <id>HTML</id>
           </State>
           <State>
+            <id>Ini Files</id>
+          </State>
+          <State>
             <id>Internationalization issues</id>
           </State>
           <State>
-            <id>JavaScript</id>
+            <id>JSON</id>
           </State>
           <State>
             <id>PHP</id>
           </State>
           <State>
-            <id>Potentially confusing code constructsJavaScript</id>
+            <id>PHPDocPHP</id>
+          </State>
+          <State>
+            <id>Phing</id>
+          </State>
+          <State>
+            <id>Probable bugsPHP</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
           </State>
           <State>
             <id>UndefinedPHP</id>
           </State>
+          <State>
+            <id>UnusedPHP</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Less</id>
+            <id>SQL</id>
           </State>
         </selected-state>
       </profile-state>
@@ -79,7 +109,7 @@
         </codeStyleSettings>
       </value>
     </option>
-    <option name="USE_PER_PROJECT_SETTINGS" value="true" />
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
   </component>
   <component name="CvsApplicationLevelConfiguration">
     <option name="EXT_CONFIGURATION">

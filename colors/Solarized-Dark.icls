@@ -1,7 +1,7 @@
 <scheme name="Solarized Dark" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.3" />
   <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="ANNOTATIONS_COLOR" value="859900" />
     <option name="ANNOTATIONS_MERGED_COLOR" value="2aa198" />
@@ -934,11 +934,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="REST.BOLD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="REST.EXPLICIT">
       <value>
         <option name="FOREGROUND" value="cb4b16" />
@@ -962,11 +957,6 @@
     <option name="REST.INTERPRETED">
       <value>
         <option name="FOREGROUND" value="6c71c4" />
-      </value>
-    </option>
-    <option name="REST.ITALIC">
-      <value>
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="REST.LINE_COMMENT">
