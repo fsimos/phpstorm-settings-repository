@@ -1,0 +1,306 @@
+<templateSet group="user">
+  <template name="imos" value="// IMOS HACK @donotcommit@&#10;// BEGIN imos Hack&#10;if (isset($_SERVER['REMOTE_ADDR']) &amp;&amp; isset($$_SERVER['REMOTE_ADDR']) &amp;&amp; gethostbyaddr($$_SERVER['REMOTE_ADDR']) == 'projekte.imos.net') {&#10;    $cursor$&#10;}&#10;//END imos Hack" description="imos Hack" toReformat="false" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="diedie" value="//BEGIN DEBUG OUTPUT &#10;// TODO @donotcommit@&#10;echo '&lt;pre&gt;&lt;hr&gt;&lt;p&gt;debug output by $user$&lt;br&gt;File: ' . __FILE__ . ':' . __LINE__ . ' &lt;br&gt;Class: ' . __CLASS__ . ' &lt;br&gt;Function: ' . __FUNCTION__ . '&lt;/p&gt;';&#10;var_dump($variable$);die('&lt;br&gt;end of debug output&lt;hr&gt;');$END$&#10;//END DEBUG OUTPUT" description="Debug output of variable" toReformat="true" toShortenFQNames="true">
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="variable" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ob" value="// BEGIN LOG OUTPUT @donotcommit@&#10;// TODO There is a explicit error_log() in $FILE$ : $LINE$ !&#10;ob_start();&#10;var_dump($VAR$);&#10;$$ob_out = ob_get_clean();&#10;error_log($$ob_out);$END$&#10;// END LOG OUTPUT" description="dump variable to errorr log" toReformat="true" toShortenFQNames="true">
+    <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="imosif" value="// IMOS HACK @donotcommit@&#10;// BEGIN imos Hack BE CAREFUL WHEN DELETING!!!&#10;// TODO Remove imos Hack &#10;if (isset($_SERVER['REMOTE_ADDR']) &amp;&amp; gethostbyaddr($$_SERVER['REMOTE_ADDR']) == 'projekte.imos.net') {&#10;    //BEGIN IMOS PART&#10;    &#10;    $SELECTION$&#10;    &#10;    // END IMOS PART&#10;} else {&#10;    // BEGIN PUBLIC PART&#10;    &#10;    $SELECTION$&#10;    &#10;    // END PUBLIC PART&#10;}&#10;//END imos Hack BE CAREFUL WHEN DELETING!!!" description="imos Hack if else" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="idie" value="//BEGIN DEBUG OUTPUT @donotcommit@&#10;// TODO There is a die() in __FILE__ : __FUNCTION__ !&#10;// IMOS HACK&#10;// BEGIN imos Hack&#10;if (isset($_SERVER['REMOTE_ADDR']) &amp;&amp; gethostbyaddr($$_SERVER['REMOTE_ADDR']) == 'projekte.imos.net') {&#10;    echo '&lt;pre&gt;&lt;hr&gt;&lt;p&gt;debug output by $user$&lt;br&gt;File: __FILE__ &lt;br&gt;Class: __CLASS__ &lt;br&gt;Function: __FUNCTION__&lt;/p&gt;';&#10;    var_dump($variable$);die('&lt;br&gt;end of debug output&lt;hr&gt;');$END$&#10;}&#10;//END DEBUG OUTPUT" description="imos Debug output of variable" toReformat="true" toShortenFQNames="true">
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="variable" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="markl" value="error_log(dirname(__FILE__) . '/' . __FILE__ . ':' . __LINE__ . ' / ' . __CLASS__ . ':' . __FUNCTION__); // @donotcommit@" description="Position Marker -&gt; error_log" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="marke" value="echo(dirname(__FILE__) . '/' . __FILE__ . ':' . __LINE__ . ' / ' . __CLASS__ . ':' . __FUNCTION__) . PHP_EOL; // @donotcommit@" description="Position Marker -&gt; echo" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="obe" value="// BEGIN LOG OUTPUT @donotcommit@&#10;// TODO There is a explicit error_log() in $FILE$ : $LINE$ !&#10;ob_start();&#10;var_dump($VAR$);&#10;$$ob_out = ob_get_clean();&#10;echo($$ob_out);$END$&#10;// END LOG OUTPUT" description="dump variable to errorr log" toReformat="true" toShortenFQNames="true">
+    <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR" expression="completeSmart()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="dont" value="// $date$ fs: @donotcommit@" description="@donotcommit@" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="diediej" value="//BEGIN DEBUG OUTPUT @donotcommit@&#10;// TODO There is a die() in $file$ : $function_container$ !&#10;echo '&lt;pre&gt;&lt;hr&gt;&lt;p&gt;debug output by $user$&lt;br&gt;File: __FILE__ &lt;br&gt;Class: __CLASS__ &lt;br&gt;Function: __FUNCTION__&lt;/p&gt;';&#10;echo(json_encode($variable$));die('&lt;br&gt;end of debug output&lt;hr&gt;');$END$&#10;//END DEBUG OUTPUT" description="Debug output of variable as json" toReformat="true" toShortenFQNames="true">
+    <variable name="file" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="function_container" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="variable" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="obj" value="// BEGIN LOG OUTPUT @donotcommit@&#10;// TODO There is a explicit error_log() in $FILE$ : $LINE$ !&#10;ob_start();&#10;echo(json_encode($VAR$));&#10;$$ob_out = ob_get_clean();&#10;error_log($$ob_out);$END$&#10;// END LOG OUTPUT" description="dump variable to errorr log as json" toReformat="true" toShortenFQNames="true">
+    <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="VAR" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="imosa" value="&lt;?php // BEGIN imos Hack @donotcommit@ ?&gt;&#10;  &lt;?php if (isset($_SERVER['REMOTE_ADDR']) &amp;&amp; gethostbyaddr($_SERVER['REMOTE_ADDR']) == 'projekte.imos.net') : ?&gt;&#10;  &#10;  &lt;?php endif; ?&gt;&#10;&lt;?php //END imos Hack ?&gt;" description="imos Hack" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="sessmsg" value="$_SESSION[FRONTEND]['msgs']['$type$'][] = get_string('sm_$string$');" description="Session Message" toReformat="true" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="&quot;success&quot;" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="inpre" value="&lt;pre&gt;&lt;?php print_r($VARIABLE$); ?&gt;&lt;/pre&gt;" description="pre with print_r" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="foo" value="// $date$ fs: @donotcommit@&#10;die('foo');" description="die('foo');" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="switch" value="switch ($i$) {&#10;    case $1$:&#10;        $2$        &#10;        break;&#10;   default:        &#10;        break;&#10;}" description="switch-case" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ico" value="// fs: @donotcommit@&#10;if (isset($_COOKIE['imos_dev']) &amp;&amp; strlen($_COOKIE['imos_dev'])) {&#10;    echo '&lt;pre&gt;&lt;hr&gt;';var_dump($variable$);die('&lt;hr&gt;&lt;/pre&gt;');$END$&#10;}&#10;" description="idie by cookie" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
