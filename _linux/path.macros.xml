@@ -1,0 +1,5 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="PROJECT_PATH" value="/mnt/dev-projekte-r-n/fs_rn" />
+  </component>
+</application>
