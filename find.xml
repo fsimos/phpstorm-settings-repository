@@ -1,9 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Directory 'V:\fs_publisher'" />
     <option name="defaultScopeName" value="Directory 'V:\fs_publisher'" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Directory 'V:\fs_publisher'" />
     <option name="FILE_MASK" value="*.php" />
   </component>
