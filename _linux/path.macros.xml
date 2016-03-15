@@ -1,5 +1,5 @@
 <application>
   <component name="PathMacrosImpl">
-    <macro name="PROJECT_PATH" value="/mnt/dev-projekte-r-n/fs_rn" />
+    <macro name="PROJECT_PATH" value="/mnt/lighty-dev/fs_ewshop" />
   </component>
 </application>
