@@ -168,14 +168,6 @@
   <component name="VcsApplicationSettings" PATCH_STORAGE_LOCATION="Q:\fs_b20_gbo">
     <option name="PATCH_STORAGE_LOCATION" value="Q:\fs_b20_gbo" />
   </component>
-  <component name="XPathView.XPathViewPlugin">
-    <option name="attributes">
-      <TextAttributes />
-    </option>
-    <option name="contextAttributes">
-      <TextAttributes />
-    </option>
-  </component>
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
     <recent_templates>
       <option name="RECENT_TEMPLATES">
