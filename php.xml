@@ -7,7 +7,7 @@
   <component name="PhpAutoImport" auto_import_file_scope="true" />
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="M:\fs_webdev\vendor\squizlabs\php_codesniffer\scripts\phpcs.bat" />
+      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
