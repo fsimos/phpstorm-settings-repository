@@ -186,7 +186,7 @@
   <inspection_tool class="PhingDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="Php7ReadinessInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="PhpAbstractStaticMethodInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+  <inspection_tool class="PhpCSValidationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
     <option name="CODING_STANDARD" value="PSR2" />
   </inspection_tool>
   <inspection_tool class="PhpConstantReassignmentInspection" enabled="false" level="WARNING" enabled_by_default="false" />
