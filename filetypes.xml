@@ -6,6 +6,7 @@
       <mapping pattern=".functions" type="PLAIN_TEXT" />
       <mapping pattern=".psqlrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="foo" type="PLAIN_TEXT" />
       <mapping pattern="dlh" type="PLAIN_TEXT" />
