@@ -1,8 +1,10 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="File 'M:\fs_webdev\tmp\styleguide\styleguide.php'" />
     <option name="defaultScopeName" value="File 'M:\fs_webdev\tmp\styleguide\styleguide.php'" />
     <option name="regularExpressions" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File 'M:\fs_webdev\tmp\styleguide\styleguide.php'" />
     <option name="FILE_MASK" value="*.php" />
