@@ -5,7 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="File 'M:\fs_webdev\tmp\styleguide\styleguide.php'" />
-    <option name="FILE_MASK" value="*.php,*.sql" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -16,8 +16,8 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.php</mask>
       <mask>*.php,*.sql</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
