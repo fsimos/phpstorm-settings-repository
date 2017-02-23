@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5e167995-22db-4a6e-b06c-0acbf91641c6" name="fs.web.hq.webdev.gp" url="http://fs.web.hq.webdev.gp">
+        <fileTransfer port="0" mountedRoot="C:\mounts\fs.web.hq.webdev.gp" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</application>
