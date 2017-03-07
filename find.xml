@@ -3,7 +3,7 @@
     <option name="customScope" value="File 'M:\fs_webdev\tmp\styleguide\styleguide.php'" />
     <option name="defaultScopeName" value="File 'M:\fs_webdev\tmp\styleguide\styleguide.php'" />
     <option name="SEARCH_SCOPE" value="File 'M:\fs_webdev\tmp\styleguide\styleguide.php'" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="FILE_MASK" value="*.sql" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -16,6 +16,7 @@
       <mask>*.mxml</mask>
       <mask>*.php,*.sql</mask>
       <mask>*.php</mask>
+      <mask>*.sql</mask>
     </recentFileMasks>
   </component>
 </application>
