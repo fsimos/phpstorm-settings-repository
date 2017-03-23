@@ -1,0 +1,27 @@
+<code_scheme name="Default (1)">
+  <option name="LINE_SEPARATOR" value="&#10;" />
+  <SqlCodeStyleSettings>
+    <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
+    <option name="ALIGN_TYPE_IN_CREATE_STATEMENT" value="false" />
+    <option name="ALIGN_TYPE_IN_BLOCK_STATEMENT" value="false" />
+    <option name="ALIGN_TYPE_IN_ARGUMENT_DEFINITION" value="false" />
+    <option name="ALIGN_INSIDE_BINARY_EXPRESSION" value="false" />
+    <option name="ALIGN_INSIDE_QUERY_EXPRESSION" value="false" />
+    <option name="NEW_LINE_BEFORE_QUERY_INSIDE_PARENTHESIS" value="true" />
+    <option name="NEW_LINE_BEFORE_QUERY_INSIDE_DML" value="true" />
+    <option name="WRAP_INSIDE_SELECT" value="2" />
+    <option name="WRAP_INSIDE_JOIN_EXPRESSION" value="2" />
+    <option name="WRAP_INSIDE_GROUP_BY" value="2" />
+    <option name="WRAP_INSIDE_WHERE" value="2" />
+    <option name="WRAP_INSIDE_ORDER_BY" value="2" />
+    <option name="QUOTE_IDENTIFIER" value="0" />
+    <option name="INDEX_NAME_TEMPLATE" value="{unique?u:ix}_{table}_{columns}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="pk_{table}" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}" />
+  </SqlCodeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
