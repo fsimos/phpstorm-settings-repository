@@ -14,7 +14,6 @@
     <option name="WRAP_INSIDE_GROUP_BY" value="2" />
     <option name="WRAP_INSIDE_WHERE" value="2" />
     <option name="WRAP_INSIDE_ORDER_BY" value="2" />
-    <option name="QUOTE_IDENTIFIER" value="0" />
     <option name="INDEX_NAME_TEMPLATE" value="{unique?u:ix}_{table}_{columns}" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="pk_{table}" />
     <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}" />
