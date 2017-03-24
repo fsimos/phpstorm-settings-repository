@@ -3,6 +3,10 @@
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
   </component>
+  <component name="SqlEditorOptions">
+    <option name="concatenateStringsOnEnter" value="true" />
+    <option name="qualificationType" value="On collisions" />
+  </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
   </component>
