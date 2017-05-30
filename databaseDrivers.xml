@@ -50,11 +50,11 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
-      <artifact name="PostgreSQL" use="true" version="9.4-1201" />
+      <artifact name="PostgreSQL" version="9.4-1201" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
       <library>
-        <url>file://$USER_HOME$/Downloads/postgresql-42.0.0.jar</url>
+        <url>file://$USER_HOME$/Downloads/postgresql-42.1.1.jar</url>
       </library>
     </driver>
     <driver id="db2" name="DB2 (LUW)" dialect="DB2">
