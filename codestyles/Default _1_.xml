@@ -1,5 +1,35 @@
 <code_scheme name="Default (1)">
   <option name="LINE_SEPARATOR" value="&#10;" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <PHPCodeStyleSettings>
+    <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
+    <option name="LOWER_CASE_NULL_CONST" value="true" />
+    <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
+  </PHPCodeStyleSettings>
+  <DBN-PSQL>
+    <case-options enabled="false">
+      <option name="KEYWORD_CASE" value="lower" />
+      <option name="FUNCTION_CASE" value="lower" />
+      <option name="PARAMETER_CASE" value="lower" />
+      <option name="DATATYPE_CASE" value="lower" />
+      <option name="OBJECT_CASE" value="preserve" />
+    </case-options>
+    <formatting-settings enabled="false" />
+  </DBN-PSQL>
+  <DBN-SQL>
+    <case-options enabled="false">
+      <option name="KEYWORD_CASE" value="lower" />
+      <option name="FUNCTION_CASE" value="lower" />
+      <option name="PARAMETER_CASE" value="lower" />
+      <option name="DATATYPE_CASE" value="lower" />
+      <option name="OBJECT_CASE" value="preserve" />
+    </case-options>
+    <formatting-settings enabled="false">
+      <option name="STATEMENT_SPACING" value="one_line" />
+      <option name="CLAUSE_CHOP_DOWN" value="chop_down_if_statement_long" />
+      <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
+    </formatting-settings>
+  </DBN-SQL>
   <SqlCodeStyleSettings>
     <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
     <option name="ALIGN_TYPE_IN_CREATE_STATEMENT" value="false" />
@@ -18,6 +48,112 @@
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="pk_{table}" />
     <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}" />
   </SqlCodeStyleSettings>
+  <codeStyleSettings language="PHP">
+    <option name="BLANK_LINES_AFTER_PACKAGE" value="1" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="CALL_PARAMETERS_WRAP" value="1" />
+    <option name="METHOD_PARAMETERS_WRAP" value="5" />
+    <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+    <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+    <option name="ARRAY_INITIALIZER_WRAP" value="5" />
+    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+    <option name="IF_BRACE_FORCE" value="3" />
+    <option name="DOWHILE_BRACE_FORCE" value="3" />
+    <option name="WHILE_BRACE_FORCE" value="3" />
+    <option name="FOR_BRACE_FORCE" value="3" />
+    <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+      </groups>
+      <rules>
+        <section>
+          <rule>
+            <match>
+              <CONST>true</CONST>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONST>true</CONST>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <FIELD>true</FIELD>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <STATIC>false</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <CONSTRUCTOR>true</CONSTRUCTOR>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <METHOD>true</METHOD>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <STATIC>false</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+      </rules>
+    </arrangement>
+  </codeStyleSettings>
   <codeStyleSettings language="SQL">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
