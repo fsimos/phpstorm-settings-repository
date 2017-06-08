@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="File '[fs_gtue] - M:\fs_gtue\includes\Custom\MailRenderer.php'" />
+    <option name="defaultScopeName" value="File '[fs_gtue] - M:\fs_gtue\includes\Custom\MailRenderer.php'" />
     <option name="searchOverloadedMethods" value="true" />
     <option name="SEARCH_OVERLOADED_METHODS" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="File '[fs_gtue] - M:\fs_gtue\includes\Custom\MailRenderer.php'" />
     <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
