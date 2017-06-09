@@ -124,7 +124,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="tdata" value="tdata['$SELECTION$']" toReformat="false" toShortenFQNames="true">
+  <template name="tdata" value="tdata['$SELECTION$']" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
