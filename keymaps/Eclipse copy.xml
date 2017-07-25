@@ -5,6 +5,7 @@
     <keyboard-shortcut first-keystroke="ctrl 7" />
   </action>
   <action id="GotoBookmark7" />
+  <action id="GotoChangedFile" />
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="shift f1" />
   </action>
