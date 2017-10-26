@@ -8,6 +8,7 @@
     <option name="qualificationType" value="On collisions" />
   </component>
   <component name="XmlEditorOptions">
+    <option name="automaticallyInsertClosingTag" value="false" />
     <option name="showCssInlineColorPreview" value="true" />
   </component>
 </application>
